@@ -1,0 +1,158 @@
+2026-10-15 14:29:18 [INFO] Aplicación iniciada
+2026-10-15 14:29:18 [INFO] Driver com.mysql.cj.jdbc.Driver no encontrado; se intentara el registro automatico JDBC
+2026-10-15 14:29:18 [ERROR] No se pudo conectar a la base de datos
+java.sql.SQLException: No suitable driver found for jdbc:mysql://localhost:3306/erp_little_horizons?useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=America/Bogota&characterEncoding=UTF-8
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:708)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:230)
+	at com.littlehorizons.erp.util.DatabaseConnection.getConnection(DatabaseConnection.java:60)
+	at com.littlehorizons.erp.util.DatabaseConnection.testConnection(DatabaseConnection.java:65)
+	at com.littlehorizons.erp.Main.main(Main.java:75)
+2026-10-15 14:33:05 [INFO] Aplicación iniciada
+2026-10-15 14:33:05 [ERROR] No se pudo conectar a la base de datos
+java.sql.SQLException: Access denied for user 'camper	'@'localhost' (using password: YES)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:121)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:114)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:837)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:420)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:238)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:180)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:683)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:230)
+	at com.littlehorizons.erp.util.DatabaseConnection.getConnection(DatabaseConnection.java:60)
+	at com.littlehorizons.erp.util.DatabaseConnection.testConnection(DatabaseConnection.java:65)
+	at com.littlehorizons.erp.Main.main(Main.java:75)
+2026-10-15 14:35:01 [INFO] Aplicación iniciada
+2026-10-15 14:35:01 [ERROR] No se pudo conectar a la base de datos
+java.sql.SQLException: Access denied for user 'camper	'@'localhost' (using password: YES)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:121)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:114)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:837)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:420)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:238)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:180)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:683)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:230)
+	at com.littlehorizons.erp.util.DatabaseConnection.getConnection(DatabaseConnection.java:60)
+	at com.littlehorizons.erp.util.DatabaseConnection.testConnection(DatabaseConnection.java:65)
+	at com.littlehorizons.erp.Main.main(Main.java:75)
+2026-10-15 14:56:26 [INFO] Aplicación iniciada
+2026-10-15 14:56:26 [ERROR] No se pudo conectar a la base de datos
+java.sql.SQLException: Access denied for user 'camper	'@'localhost' (using password: YES)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:121)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:114)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:837)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:420)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:238)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:180)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:683)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:230)
+	at com.littlehorizons.erp.util.DatabaseConnection.getConnection(DatabaseConnection.java:60)
+	at com.littlehorizons.erp.util.DatabaseConnection.testConnection(DatabaseConnection.java:65)
+	at com.littlehorizons.erp.Main.main(Main.java:75)
+2026-10-15 14:58:34 [INFO] Aplicación iniciada
+2026-10-15 14:58:34 [ERROR] No se pudo conectar a la base de datos
+java.sql.SQLException: Access denied for user 'camper	'@'localhost' (using password: YES)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:121)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:114)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:837)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:420)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:238)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:180)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:683)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:230)
+	at com.littlehorizons.erp.util.DatabaseConnection.getConnection(DatabaseConnection.java:60)
+	at com.littlehorizons.erp.util.DatabaseConnection.testConnection(DatabaseConnection.java:65)
+	at com.littlehorizons.erp.Main.main(Main.java:75)
+2026-10-15 14:59:32 [INFO] Aplicación iniciada
+2026-10-15 14:59:33 [ERROR] No se pudo conectar a la base de datos
+java.sql.SQLException: Access denied for user 'camper	'@'localhost' (using password: YES)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:121)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:114)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:837)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:420)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:238)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:180)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:683)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:230)
+	at com.littlehorizons.erp.util.DatabaseConnection.getConnection(DatabaseConnection.java:60)
+	at com.littlehorizons.erp.util.DatabaseConnection.testConnection(DatabaseConnection.java:65)
+	at com.littlehorizons.erp.Main.main(Main.java:75)
+2026-10-15 15:08:01 [INFO] Aplicación iniciada
+2026-10-15 15:09:37 [INFO] Aplicación finalizada
+2026-10-15 15:10:37 [INFO] Aplicación iniciada
+2026-10-15 15:10:48 [INFO] Aplicación finalizada
+2026-10-15 15:11:02 [INFO] Aplicación iniciada
+2026-10-15 15:11:48 [INFO] Aplicación iniciada
+2026-10-15 15:11:48 [ERROR] No se pudo conectar a la base de datos
+java.sql.SQLException: Access denied for user 'camper	'@'localhost' (using password: YES)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:121)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:114)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:837)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:420)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:238)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:180)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:683)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:230)
+	at com.littlehorizons.erp.util.DatabaseConnection.getConnection(DatabaseConnection.java:60)
+	at com.littlehorizons.erp.util.DatabaseConnection.testConnection(DatabaseConnection.java:65)
+	at com.littlehorizons.erp.Main.main(Main.java:75)
+2026-10-15 15:12:32 [INFO] Aplicación iniciada
+2026-10-15 15:13:44 [INFO] Aplicación iniciada
+2026-10-15 15:21:31 [INFO] Aplicación iniciada
+2026-10-15 15:22:31 [INFO] Aplicación iniciada
+2026-10-15 15:33:35 [INFO] Aplicación iniciada
+2026-10-15 15:33:35 [INFO] Driver com.mysql.cj.jdbc.Driver no encontrado; se intentara el registro automatico JDBC
+2026-10-15 15:33:35 [ERROR] No se pudo conectar a la base de datos
+java.sql.SQLException: No suitable driver found for jdbc:mysql://localhost:3306/campuslands?useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=America/Bogota&characterEncoding=UTF-8
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:708)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:230)
+	at com.littlehorizons.erp.util.DatabaseConnection.getConnection(DatabaseConnection.java:60)
+	at com.littlehorizons.erp.util.DatabaseConnection.testConnection(DatabaseConnection.java:65)
+	at com.littlehorizons.erp.Main.main(Main.java:75)
+2026-10-15 15:34:19 [INFO] Aplicación iniciada
+2026-10-15 15:35:15 [INFO] Aplicación iniciada
+2026-10-20 15:07:15 [INFO] Aplicación iniciada
+2026-10-20 15:11:32 [INFO] Aplicación iniciada
+2026-10-20 15:26:53 [INFO] Aplicación iniciada
+2026-10-20 15:27:46 [INFO] Aplicación finalizada
+2026-10-20 16:03:43 [INFO] Aplicación iniciada
+2026-10-27 14:00:30 [INFO] Aplicación iniciada
+2026-10-27 14:01:23 [INFO] Aplicación finalizada
+2026-10-27 14:12:21 [INFO] Aplicación iniciada
+2026-10-27 14:12:31 [INFO] Aplicación finalizada
+2026-10-27 14:24:25 [INFO] Aplicación iniciada
+2026-10-27 14:24:35 [INFO] Aplicación finalizada
+2026-10-27 14:24:43 [INFO] Aplicación iniciada
+2026-10-27 14:24:52 [INFO] Aplicación finalizada
+2026-10-27 14:25:54 [INFO] Aplicación iniciada
+2026-10-27 14:28:25 [INFO] Aplicación finalizada
+2026-10-27 14:30:10 [INFO] Aplicación iniciada
+2026-10-27 14:33:18 [INFO] Aplicación iniciada
+2026-10-27 14:35:02 [INFO] Aplicación iniciada
+2026-10-27 15:03:41 [INFO] Aplicación iniciada
+2026-10-27 15:05:22 [INFO] Aplicación iniciada
+2026-10-27 15:14:17 [INFO] Aplicación iniciada
+2026-10-27 15:15:50 [INFO] Aplicación iniciada
+2026-10-27 15:16:07 [INFO] Aplicación iniciada
+2026-10-27 15:20:30 [INFO] Aplicación iniciada
+2026-10-27 15:22:31 [INFO] Aplicación iniciada
+2026-10-27 15:23:00 [INFO] Aplicación iniciada
+2026-10-27 15:23:51 [INFO] Aplicación iniciada
+2026-10-27 15:31:02 [INFO] Aplicación iniciada
+2026-10-27 15:44:33 [INFO] Aplicación iniciada
+2026-10-27 16:10:48 [INFO] Aplicación iniciada
+2026-10-27 16:31:48 [INFO] Aplicación iniciada
+2026-10-27 16:37:41 [INFO] Aplicación iniciada
+2026-10-27 16:38:36 [INFO] Aplicación iniciada
+2026-10-27 16:41:40 [INFO] Aplicación iniciada
+2026-10-27 16:44:12 [INFO] Aplicación iniciada
+2026-10-27 16:49:55 [INFO] Aplicación iniciada
+2026-10-27 16:51:23 [INFO] Aplicación iniciada
+2026-10-27 16:51:26 [INFO] Aplicación finalizada
+2026-10-27 16:51:35 [INFO] Aplicación iniciada
+2026-10-27 16:52:48 [INFO] Aplicación iniciada
+2026-10-27 16:53:57 [INFO] Aplicación iniciada
+2026-10-27 16:54:46 [INFO] Aplicación iniciada
+2026-10-27 16:55:56 [INFO] Aplicación iniciada
+2026-10-27 16:56:46 [INFO] Aplicación iniciada
+2026-10-27 16:57:21 [INFO] Aplicación finalizada
